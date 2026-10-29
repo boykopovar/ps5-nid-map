@@ -21,3 +21,12 @@ target_include_directories(Ps5NidMap PUBLIC "${CMAKE_CURRENT_SOURCE_DIR}/include
 if(MINGW)
     target_compile_options(Ps5NidMap PRIVATE -Wall -Wextra -Wpedantic -Werror)
 endif()
+
+if(CMAKE_SOURCE_DIR STREQUAL PROJECT_SOURCE_DIR)
+    add_executable(Ps5NidMapBenchmark main.cpp)
+    target_link_libraries(Ps5NidMapBenchmark PRIVATE Ps5NidMap::Ps5NidMap)
+    set_target_properties(Ps5NidMapBenchmark PROPERTIES CXX_EXTENSIONS OFF)
+    if(MINGW)
+        target_compile_options(Ps5NidMapBenchmark PRIVATE -Wall -Wextra -Wpedantic -Werror)
+    endif()
+endif()
