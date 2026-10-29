@@ -1,30 +1,33 @@
 #ifndef PS5_NID_MAP_DATA_MODULES_HPP
 #define PS5_NID_MAP_DATA_MODULES_HPP
 
-#include <functional>
-#include <initializer_list>
-#include <map>
+#include <Ps5NidMap/Hash/PerfectHash.hpp>
 #include <string>
-#include <string_view>
 #include <vector>
 
 namespace Ps5NidMap::Detail {
 
-struct Mappings {
-    std::map<std::string, std::string, std::less<>> ModuleNames;
-    std::map<std::string, std::map<std::string, std::vector<std::string>, std::less<>>, std::less<>> ExportLibraries;
+struct LibraryGroup {
+    std::uint32_t Index;
+    std::uint32_t Count;
+    constexpr std::size_t Size() const { return Count; }
 };
 
-class ModuleBuilder {
-public:
-    ModuleBuilder(Mappings& mappings, std::string_view moduleName);
-    void AddFiles(std::initializer_list<std::string_view> files);
-    void AddLibrary(std::string_view libraryName, std::initializer_list<std::string_view> nids);
+struct ModuleData {
+    std::string_view Name;
+    Dictionary<LibraryGroup, true> Nids;
+    const std::string& (*GetName)();
+    const std::vector<std::string>& (*GetLibraries)(std::size_t index);
+};
 
-private:
-    Mappings& mappings;
-    std::string moduleName;
-    std::vector<std::string> libraryNames;
+struct ModuleReference {
+    const ModuleData* Module;
+    constexpr std::size_t Size() const { return Module->Nids.Size(); }
+};
+
+struct Mappings {
+    Dictionary<ModuleReference> ModuleNames;
+    Dictionary<ModuleReference> ExportLibraries;
 };
 
 const Mappings& GetMappings();

@@ -85,7 +85,8 @@ public:
 private:
     constexpr const TValue* findKey(std::uint64_t hash, typename Entry<TValue, TNid>::KeyType key) const {
         if (entries.empty()) return nullptr;
-        const auto& bucket = buckets[Mix(hash + seed) & (buckets.size() - 1)];
+        const auto bucketIndex = (TNid ? hash : Mix(hash + seed)) & (buckets.size() - 1);
+        const auto& bucket = buckets[bucketIndex];
         if (bucket.Size == 0) return nullptr;
         const auto index = bucket.Size == 1 ? bucket.Offset : slots[bucket.Offset + (Mix(hash + bucket.Seed) & (bucket.Size - 1))];
         if (index == std::numeric_limits<std::uint32_t>::max()) return nullptr;
@@ -127,7 +128,7 @@ consteval auto BuildDictionary(std::array<Entry<TValue, TNid>, TSize> entries) {
         bool primaryFound = false;
         for (std::uint64_t attempt = 1; attempt <= 4096; ++attempt) {
             counts.fill(0);
-            for (const auto hash : hashes) ++counts[Mix(hash + attempt) & (BucketCount - 1)];
+            for (const auto hash : hashes) ++counts[(TNid ? hash : Mix(hash + attempt)) & (BucketCount - 1)];
             std::size_t capacity = 0;
             for (const auto count : counts) capacity += count < 2 ? 0 : std::bit_ceil(static_cast<std::size_t>(count) * count);
             if (capacity <= result.Slots.size()) {
@@ -141,7 +142,7 @@ consteval auto BuildDictionary(std::array<Entry<TValue, TNid>, TSize> entries) {
         for (std::size_t index = 0; index < BucketCount; ++index) starts[index + 1] = starts[index] + counts[index];
         auto cursors = starts;
         std::array<std::uint32_t, TSize> order{};
-        for (std::size_t index = 0; index < TSize; ++index) order[cursors[Mix(hashes[index] + result.Seed) & (BucketCount - 1)]++] = static_cast<std::uint32_t>(index);
+        for (std::size_t index = 0; index < TSize; ++index) order[cursors[(TNid ? hashes[index] : Mix(hashes[index] + result.Seed)) & (BucketCount - 1)]++] = static_cast<std::uint32_t>(index);
         result.Slots.fill(Empty);
         std::uint32_t offset = 0;
         for (std::size_t bucketIndex = 0; bucketIndex < BucketCount; ++bucketIndex) {
@@ -184,6 +185,37 @@ consteval auto BuildDictionary(std::array<Entry<TValue, TNid>, TSize> entries) {
         }
     }
     return result;
+}
+
+template<std::size_t TSize>
+struct SecondaryStorage {
+    static_assert(TSize > 1);
+    std::array<std::uint32_t, std::bit_ceil(TSize * TSize)> Slots;
+    std::uint64_t Seed;
+};
+
+template<std::size_t TSize>
+consteval auto BuildSecondary(const std::array<std::uint64_t, TSize>& keys, std::uint32_t firstIndex) {
+    SecondaryStorage<TSize> result{};
+    constexpr auto Empty = std::numeric_limits<std::uint32_t>::max();
+    for (std::uint64_t seed = 1; seed <= 65536; ++seed) {
+        result.Slots.fill(Empty);
+        bool collision = false;
+        for (std::size_t index = 0; index < keys.size(); ++index) {
+            auto& slot = result.Slots[Mix(keys[index] + seed) & (result.Slots.size() - 1)];
+            if (slot != Empty) {
+                if (keys[slot - firstIndex] == keys[index]) throw "Duplicate secondary key";
+                collision = true;
+                break;
+            }
+            slot = firstIndex + static_cast<std::uint32_t>(index);
+        }
+        if (!collision) {
+            result.Seed = seed;
+            return result;
+        }
+    }
+    throw "Secondary hash seed search exhausted";
 }
 
 }
