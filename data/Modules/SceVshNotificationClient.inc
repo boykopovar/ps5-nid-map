@@ -1,1 +1,30 @@
 PS5_NID_MAP_FILES("Sce.Vsh.NotificationClient.dll.sprx")
+
+PS5_NID_MAP_LIBRARY("SceVshNotificationClient", {
+    "-CyDhsEJHl4",
+    "0NvEP-8Gox8",
+    "1LvOkAVB8sA",
+    "453e34hvN-E",
+    "H7G29fFNHTM",
+    "Hut1Y7XQrXA",
+    "OXFFs5e97bc",
+    "PM25zHyWlHE",
+    "RkSFw3znsvI",
+    "Tkla3v2SbEs",
+    "VLT5I1Gyt5I",
+    "WvXXN099MmE",
+    "eHfdThAJ8hU",
+    "fXbjhGGDtTA",
+    "hK4sM1jQItY",
+    "hd2qaP2nyxI",
+    "j0aYHYFbMvE",
+    "k06zT6Ay+rE",
+    "m9nyDKqQ4yY",
+    "mGZM-pE58p8",
+    "mJDLBr05s9Y",
+    "nHHW4MZGIhM",
+    "ngtTfbuTKfo",
+    "pOUMEDxR0SU",
+    "yFugNfK3RRA",
+    "yT5lFPpeTCI"
+})

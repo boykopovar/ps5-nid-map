@@ -1,1 +1,33 @@
 PS5_NID_MAP_FILES("Sce.Vsh.Np.Iga.dll.sprx")
+
+PS5_NID_MAP_LIBRARY("SceVshNpIga", {
+    "-UEjWeP0+00",
+    "-yewXzwIcvo",
+    "23emHm9r6fs",
+    "4jV9UtBd-e0",
+    "6yQAX5fzuLQ",
+    "7SAr6a+UUz8",
+    "Cd1elnIgWk4",
+    "IsvHt1j8-NU",
+    "M0V8GfBPo3A",
+    "PM25zHyWlHE",
+    "QL9bWQjff2s",
+    "RCcKmyd+9V8",
+    "RkSFw3znsvI",
+    "TI4+VjKE+is",
+    "Tkla3v2SbEs",
+    "V8rPBd59A1c",
+    "WpV2xGLrS-o",
+    "Z26N8VJJRzc",
+    "bnL69fDRxGw",
+    "c7EzNVIWwgc",
+    "cflD7bY110A",
+    "hLupxIZt2zM",
+    "hd2qaP2nyxI",
+    "hlxwIqPMojo",
+    "keQ3W3YSPQE",
+    "nHHW4MZGIhM",
+    "wAsQYQ9uzqM",
+    "wU7y6I-i1oA",
+    "zF29WuQrq-o"
+})

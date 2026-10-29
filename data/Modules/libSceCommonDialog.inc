@@ -1,1 +1,33 @@
 PS5_NID_MAP_FILES("libSceCommonDialog.sprx")
+
+PS5_NID_MAP_LIBRARY("libSceCommonDialog", {
+    "+UyKxWAnqIU",
+    "2RdicdHhtGA",
+    "6TIMpGvsrC4",
+    "6ljeTSi+fjs",
+    "70niEKUAnZ0",
+    "87GekE1nowg",
+    "8q7icGBWIrA",
+    "BQ3tey0JmQM",
+    "C-EZ3PkhibQ",
+    "CwCzG0nnLg8",
+    "D-V35OhFeIM",
+    "I+tdxsCap08",
+    "Ib1SMmbr07k",
+    "QXFsLON5QWw",
+    "SDpCfY9uB0g",
+    "W2MzrWix2mM",
+    "Zaa6fhiKQDE",
+    "aUS4PgJye98",
+    "afLdI6i0lQw",
+    "bUCx72-9f0g",
+    "mVRnPerBcK0",
+    "mdJgdwoM0Mo",
+    "p9TTq4bLdFU",
+    "q3-8WWCG2N0",
+    "txNJzxX6yrA",
+    "uoUpLGNkygk",
+    "v4+gzuTkv6k",
+    "xZtXq554Lbg",
+    "yxjgDvqUbGQ"
+})

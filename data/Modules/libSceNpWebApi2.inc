@@ -1,1 +1,53 @@
 PS5_NID_MAP_FILES("libSceNpWebApi2.sprx")
+
+PS5_NID_MAP_LIBRARY("libSceNpWebApi2", {
+    "+nz1Vq-NrDA",
+    "+o9816YQhqQ",
+    "1OLgvahaSco",
+    "2hlBNB96saE",
+    "3EI-OSJ65Xc",
+    "3Tt9zL3tkoc",
+    "81DkaQt6J30",
+    "9KSGFMRnp3k",
+    "9X9+cneTGUU",
+    "AAj9X+4aGYA",
+    "HwP3aM+c85c",
+    "Io7kh1LHDoM",
+    "KJdPcOGmK58",
+    "KWkc6Q3tjXc",
+    "MgsTa76wlEk",
+    "MsaFhR+lPE4",
+    "NKCwS8+5Fx8",
+    "NNVf18SlbT8",
+    "OOY9+ObfKec",
+    "PmyrbbJSFz0",
+    "QafxeZM3WK4",
+    "TjAutbrkr60",
+    "UCOQAasV6gw",
+    "WV1GwM32NgY",
+    "Xweb+naPZ8Y",
+    "bEvXpcEk200",
+    "bltDCAskmfE",
+    "dowMWFgowXY",
+    "egOOvrnF6mI",
+    "fIATVMo4Y1w",
+    "fY3QqeNkF8k",
+    "gANJba5v5BI",
+    "hOnIlcGrO6g",
+    "hksbskNToEA",
+    "lQOCF84lvzw",
+    "lxtHJMwBsaU",
+    "qaMcX2+6ZiA",
+    "qmINYLuqzaA",
+    "sk54bi6FtYM",
+    "vvzWO-DvG1s",
+    "xIcy2kpLv6M",
+    "zXaFo7euxsQ",
+    "zpiPsH7dbFQ"
+})
+
+PS5_NID_MAP_LIBRARY("libSceNpWebApi2AsyncRestricted", {
+    "4N85o28Ifbk",
+    "A9IoYzANK3M",
+    "lylvdXiq1UE"
+})

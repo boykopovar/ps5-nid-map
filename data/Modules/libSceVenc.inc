@@ -1,1 +1,31 @@
 PS5_NID_MAP_FILES("libSceVenc.sprx")
+
+PS5_NID_MAP_LIBRARY("libSceVenc", {
+    "+iw5bxfP1Hc",
+    "2FTI1YJYNBw",
+    "2cfdqkF20ZI",
+    "3-o2Ds4E87g",
+    "39+oWg0ZObY",
+    "4eX4H3CtEfk",
+    "6ExR0HScaLc",
+    "6nGfjRPqCUM",
+    "766UkIIwtxU",
+    "B5iyzWMm+DY",
+    "DG-0oJPURy8",
+    "JoBLKJB-Nck",
+    "M-mpR475+UY",
+    "N4NG9j8mdzo",
+    "PXtyJsZ7578",
+    "QNO1olxrfBU",
+    "Vm5uPoERWmg",
+    "aNlHqxTvPTE",
+    "cHss3kYujzc",
+    "dqA5cHFo1wQ",
+    "ePTrUSMxnmg",
+    "edT5HwLDgTI",
+    "eh2hLMp3zDU",
+    "hLz3SP0zVF4",
+    "i5yjeSwjlAY",
+    "irD6EyOPBZE",
+    "l2u7IHkNheg"
+})

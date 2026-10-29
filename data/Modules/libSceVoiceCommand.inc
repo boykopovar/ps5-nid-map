@@ -1,1 +1,33 @@
 PS5_NID_MAP_FILES("libSceVoiceCommand.sprx")
+
+PS5_NID_MAP_LIBRARY("libSceVoiceCommand", {
+    "3Ehrqpl77Vo",
+    "6LAGc5pUVKY",
+    "AU4ccSFPdRk",
+    "AiecX4SUYC0",
+    "BdNC20YhUWM",
+    "DqiLppOEfzM",
+    "E3PZ0O-ASg8",
+    "F5PbC-0P+zQ",
+    "HPpY2GFnXDM",
+    "HV-frFNhuIc",
+    "IP7rOtp9LDI",
+    "IhHasj+vJqU",
+    "IznKH3-bLGU",
+    "NuHwoyB91mw",
+    "RcrtCxAyjuo",
+    "SO0IgHLQvlI",
+    "Vl5tQluXeUE",
+    "YFAcQwqgTfs",
+    "gkABrrj4Up8",
+    "jyuhGIPukWE",
+    "oZL16fv8G-s",
+    "ou72J-L08Uw",
+    "p1vaR+9Bg4A",
+    "qIMaCJ5JKsk",
+    "uHhh4t2nQt8",
+    "un4VelyCdVk",
+    "utD9pfvxzZw",
+    "wGovZflN+dA",
+    "xUcAaFdNtvY"
+})

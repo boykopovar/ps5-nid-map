@@ -1,1 +1,30 @@
 PS5_NID_MAP_FILES("Sce.PlayStation.Icu.dll.sprx")
+
+PS5_NID_MAP_LIBRARY("ScePlayStationIcu", {
+    "+6iLfx0ka28",
+    "3oUUmpRhH98",
+    "5Jvvm1ZxrKM",
+    "79xIVwQckpU",
+    "9qNW00lKzJg",
+    "A8U9KlN3JDU",
+    "ADfLtJzLvdg",
+    "ArB4T2w8NAk",
+    "D+K3CqlesK4",
+    "D796RX169mk",
+    "DYLJPm8D3aM",
+    "GkcJlTPfJfU",
+    "KQx-DyBsUj4",
+    "OlkQlj4vUpc",
+    "P+tQ3XjPCBw",
+    "PM25zHyWlHE",
+    "RkSFw3znsvI",
+    "Tkla3v2SbEs",
+    "XHs2MLpDJC8",
+    "Z5-uOct9Br0",
+    "aU8EUKsf6YQ",
+    "bpNZzqrhUTg",
+    "c7EzNVIWwgc",
+    "kDyEA0Smtdc",
+    "nHHW4MZGIhM",
+    "piKXrx+9BU4"
+})

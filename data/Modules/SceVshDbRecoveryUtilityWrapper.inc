@@ -1,1 +1,30 @@
 PS5_NID_MAP_FILES("Sce.Vsh.DbRecoveryUtilityWrapper.dll.sprx")
+
+PS5_NID_MAP_LIBRARY("SceVshDbRecoveryUtilityWrapper", {
+    "-Up2dx+yhI4",
+    "0IjKIfzLfb0",
+    "0d2tW0028wg",
+    "42-+U0HjtCY",
+    "6ZSbpM8An44",
+    "7G405avLQZQ",
+    "7LHFi0SJp3M",
+    "88I6OPWzc-U",
+    "9a-8iiu4V3k",
+    "EpncBgf5Jdo",
+    "HPXj7JmMF58",
+    "MWcD-hKZzug",
+    "NMGQ9M3+kXM",
+    "OXFFs5e97bc",
+    "PM25zHyWlHE",
+    "QVysh-6PW30",
+    "RkSFw3znsvI",
+    "S7IJCp3FISc",
+    "Tkla3v2SbEs",
+    "WVvP4zYXIaM",
+    "WkzEPopE0e0",
+    "YlYjqWNEo1Y",
+    "cXJQJ-Pr8R0",
+    "gyPp+tfCjnM",
+    "nHHW4MZGIhM",
+    "w+iPMuuXDZQ"
+})

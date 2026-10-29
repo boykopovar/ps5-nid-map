@@ -1,1 +1,30 @@
 PS5_NID_MAP_FILES("Sce.Vsh.GameListRetrieverWrapper.dll.sprx")
+
+PS5_NID_MAP_LIBRARY("SceVshShellUIRetriever", {
+    "6ff-RpHs7kw",
+    "EAPZtTAvTyw",
+    "NjDsHJleNFo",
+    "PM25zHyWlHE",
+    "RkSFw3znsvI",
+    "SJY6hJw6Cto",
+    "ScMnU3AL1MY",
+    "Tkla3v2SbEs",
+    "Z26N8VJJRzc",
+    "a-YHx7EMTcc",
+    "a3f95npF6R4",
+    "b2WfKxdJZBg",
+    "g8uRcxuyaZk",
+    "ghOp5Jv+J1w",
+    "hd2qaP2nyxI",
+    "n2UuL6ZSRI8",
+    "nHHW4MZGIhM",
+    "qGhtbyiFYrs",
+    "sTzi5VrmwH4",
+    "sqgv5fTq56Y",
+    "tfQM1qSO4Qw",
+    "tuKl3YGMfdE",
+    "vC6kutjhQg0",
+    "wAsQYQ9uzqM",
+    "xJ5QIW3jASc",
+    "y09U2n--tJA"
+})

@@ -1,1 +1,31 @@
 PS5_NID_MAP_FILES("libSceImeBackend.sprx")
+
+PS5_NID_MAP_LIBRARY("libSceImeBackend", {
+    "-2B4DKWlSTY",
+    "3pxqefzM4mQ",
+    "4YClXOfFOdk",
+    "5KKsXg7EXi8",
+    "5yb0O2TsYvw",
+    "8BNxNGzXcIc",
+    "9GIB91cj1wc",
+    "BfYmnUyy0ew",
+    "DxihSZ+xwsM",
+    "EYkbvZMNLvs",
+    "GB70BZwBCjI",
+    "HbAX1cSb+hw",
+    "MTHPbVoNR0A",
+    "R+sqyC483ns",
+    "S+NgTvWVJLA",
+    "SrHBQhBty6Y",
+    "Xva83fZZ7D4",
+    "YzJnVHf+Jwo",
+    "Z2S47QoVtYg",
+    "ZBlJme+Kcgg",
+    "co7QF5zVjnY",
+    "f22czPppTCQ",
+    "mJlVV44ycU0",
+    "n0FeJgonoxQ",
+    "w99gsSH-nWA",
+    "x-mbDkDf0Fk",
+    "xbqCEIzvg3E"
+})

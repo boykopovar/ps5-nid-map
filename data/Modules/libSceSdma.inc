@@ -1,1 +1,31 @@
 PS5_NID_MAP_FILES("libSceSdma.sprx")
+
+PS5_NID_MAP_LIBRARY("libSceSdma", {
+    "+kg7++G48bw",
+    "1FH-82oV3PY",
+    "2DZKLRza9tQ",
+    "5VuCHqv7kmw",
+    "9aCk9jZ00-w",
+    "ADzErLRX1EY",
+    "BP2pKoCEwgs",
+    "FS4QDTBsbvA",
+    "LSXECOKlQN8",
+    "R1s4ue5cubY",
+    "S2pJMf00-sk",
+    "ShFvx9095CY",
+    "Xc+bwbBPK00",
+    "ZYg4MopBVCM",
+    "aTRyTzcMwbA",
+    "dd8jmd0it24",
+    "mNFbFFiI-7A",
+    "mUgTynRdg-s",
+    "rMaiuPQsNoM",
+    "rzfOSPn1w7k",
+    "t4plRC4G6ms",
+    "uHobIZSa1dI",
+    "uvzX0EMoQwA",
+    "v1lXY+9IGYg",
+    "vPP6vKHY8Tg",
+    "xZDG33ZHAOc",
+    "zDeGymmw1lg"
+})

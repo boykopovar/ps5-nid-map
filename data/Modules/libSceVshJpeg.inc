@@ -1,1 +1,29 @@
 PS5_NID_MAP_FILES("libSceVshJpeg.sprx")
+
+PS5_NID_MAP_LIBRARY("libSceVshJpeg", {
+    "0hfL10eI3cE",
+    "2zaKdvHsAhg",
+    "4QrIS2z8+EI",
+    "APAcjNNVeDQ",
+    "Atq+9b5btSU",
+    "HwJ0Nml4P8s",
+    "MhdUhQtAIYk",
+    "Pq2t9rer-eU",
+    "Q+kAEiiSDi0",
+    "RZdBACKeudU",
+    "TPplvBxaj8w",
+    "VXRQVSn69Ow",
+    "Xpw6n1YlWu8",
+    "fUEoU29MwzA",
+    "gcreMGwhTaY",
+    "h6fqSoAmmFQ",
+    "hijfwtuVJT4",
+    "i3EU0fCS8j8",
+    "kgLz9IuqGvA",
+    "lGCN+nKovw4",
+    "soiXa1AXb90",
+    "t0W8-TBYlXc",
+    "wrb3I3Ze1C8",
+    "z+M1pu-ssOM",
+    "zGS-34LirNE"
+})

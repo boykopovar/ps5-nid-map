@@ -1,1 +1,32 @@
 PS5_NID_MAP_FILES("I18N.MidEast.dll.sprx")
+
+PS5_NID_MAP_LIBRARY("I18NMidEast", {
+    "0dCcGfKwwBQ",
+    "2hEtqkwpxGA",
+    "5Ixi+NTtIBk",
+    "BSPAfmS0s4w",
+    "EAPZtTAvTyw",
+    "LTSwPfEGg0U",
+    "PM25zHyWlHE",
+    "PNfswygjL7s",
+    "PikC1joZmXw",
+    "PoyC2Xihreo",
+    "RkSFw3znsvI",
+    "SQ1RzcXfpW0",
+    "T1mn0K8MQPU",
+    "TTt2rLwj-DI",
+    "Tkla3v2SbEs",
+    "XnlrfDXBYkw",
+    "Xu5wbwgot+Y",
+    "at-SW6syqLQ",
+    "hlIx-8aFw3o",
+    "mqtXBGqw6Rw",
+    "nHHW4MZGIhM",
+    "pOlBN11P9J4",
+    "q1C32LVaXGc",
+    "q5J3Qwirspk",
+    "sqgmtOXwL-A",
+    "wKnIMi3wISE",
+    "xahEOH+0Q0s",
+    "yCm8+Pk+cys"
+})
