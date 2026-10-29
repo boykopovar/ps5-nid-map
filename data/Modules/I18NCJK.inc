@@ -1,0 +1,1 @@
+PS5_NID_MAP_FILES("I18N.CJK.dll.sprx")
